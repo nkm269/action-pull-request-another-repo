@@ -1,4 +1,4 @@
-FROM golang:1.16-alpine3.13
+FROM alpine
 
 RUN apk update && \
     apk upgrade && \
